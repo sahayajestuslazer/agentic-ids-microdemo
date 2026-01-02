@@ -53,6 +53,7 @@ Two approaches are evaluated:
 
 ## Repository Structure
 
+```text
 agentic-ids-microdemo/
 ├─ data/
 │  └─ rag_corpus.txt        # Small playbook used for retrieval (RAG)
@@ -65,6 +66,7 @@ agentic-ids-microdemo/
 ├─ run_ids.py               # Main experiment runner
 ├─ requirements.txt
 └─ README.md
+```
 
 Generated outputs such as result CSVs and audit logs are excluded from version
 control and can be regenerated locally.
