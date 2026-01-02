@@ -1,0 +1,5 @@
+- Volumetric anomalies: sharp spikes in bytes_per_sec AND pkts_per_sec.
+- SYN flood indicators: large syn_rate increase with moderate pkt surge.
+- Brute-force / failed auth: elevated failed_conn_rate over baseline.
+- Benign periodicity: slow sinusoidal drift in pkts_per_sec/bytes_per_sec.
+- Multi-signal anomalies are more suspicious than single-metric noise.
